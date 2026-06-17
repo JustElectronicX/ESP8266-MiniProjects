@@ -1,12 +1,12 @@
-# Bikemuenchen-Head-Tracking-HeadLight
+# JEX-Wireless-Yaw-Pitch-Servo-Control
 
 # 🎯 ESP8266 Head Tracking with MPU6050 + Pan-Tilt Servos
 
 A wireless **head-tracking system** using **ESP8266 + MPU6050 + ESP-NOW** to control a **pan/tilt servo rig**.  
 One ESP8266 acts as the **Sender** (reads orientation from MPU6050), the other as the **Receiver** (drives the servos).  
 
-Author: [bikemuenchen](https://github.com/bikemuenchen)  
-Project: **Bikemuenchen-Head-Tracking-HeadLight**
+Author: JustElectronicX  
+Project: **JEX-Wireless-Yaw-Pitch-Servo-Control**
 
 ---
 
@@ -88,14 +88,14 @@ Make sure the **ESP8266 board package** is installed in Arduino IDE via Boards M
 ---
 
 ## 🛡️ License
-MIT License © 2025 [bikemuenchen](https://github.com/bikemuenchen)  
+MIT License © 2025 JustElectronicX  
 
 ---
 
 ## 🙌 Credits
 - MPU6050 DMP: [I2Cdevlib](https://github.com/jrowberg/i2cdevlib)  
 - ESP-NOW examples from ESP8266 Arduino core  
-- Project maintained by **bikemuenchen**  
+- Project maintained by **JustElectronicX**  
 
 ---
 
