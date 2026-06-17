@@ -1,6 +1,6 @@
 # JEX-Wireless-Yaw-Pitch-Servo-Control
 
-# 🎯 ESP8266 Head Tracking with MPU6050 + Pan-Tilt Servos
+#  ESP8266 Head Tracking with MPU6050 + Pan-Tilt Servos
 
 A wireless **head-tracking system** using **ESP8266 + MPU6050 + ESP-NOW** to control a **pan/tilt servo rig**.  
 One ESP8266 acts as the **Sender** (reads orientation from MPU6050), the other as the **Receiver** (drives the servos).  
@@ -18,7 +18,7 @@ Project: **JEX-Wireless-Yaw-Pitch-Servo-Control**
 
 ---
 
-## 🧩 Hardware Required
+##  Hardware Required
 - 2× ESP8266 boards (NodeMCU / Wemos D1 Mini)  
 - 1× MPU6050 sensor module  
 - 2× Micro servos (SG90 / MG90S)  
@@ -26,7 +26,7 @@ Project: **JEX-Wireless-Yaw-Pitch-Servo-Control**
 
 ---
 
-## 🔌 Wiring
+##  Wiring
 
 ### Sender (ESP8266 + MPU6050)
 | MPU6050 | ESP8266 |
@@ -47,7 +47,7 @@ Project: **JEX-Wireless-Yaw-Pitch-Servo-Control**
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 Please install the following Arduino libraries:
 
@@ -58,7 +58,7 @@ Make sure the **ESP8266 board package** is installed in Arduino IDE via Boards M
 
 ---
 
-## 🖥️ Setup Steps
+##  Setup Steps
 
 1. **Get Receiver MAC Address**  
    - Upload and run [`ESP_Get_MAC.ino`](code/ESP_Get_MAC/ESP_Get_MAC.ino) on the **receiver ESP8266**.  
@@ -81,23 +81,19 @@ Make sure the **ESP8266 board package** is installed in Arduino IDE via Boards M
 
 ---
 
-## 📐 Demo Video
+## Demo Video
 - [Youtube](https://www.youtube.com/shorts/tne_76oB_q0)
-- [Instagram](https://www.instagram.com/reel/DOG8mxtjeJE/?igsh=ZHh2eHZ5Znh1OGZ4)
+- [Instagram](https://www.instagram.com/reel/DZpV9aHtEYj/)
 
 ---
 
-## 🛡️ License
+## License
 MIT License © 2025 JustElectronicX  
 
 ---
 
-## 🙌 Credits
+## Credits
 - MPU6050 DMP: [I2Cdevlib](https://github.com/jrowberg/i2cdevlib)  
 - ESP-NOW examples from ESP8266 Arduino core  
 - Project maintained by **JustElectronicX**  
 
----
-
-## 💬 Support
-If you get an error or face any problem, please write it in the **[Discussions](../../discussions)** section.
